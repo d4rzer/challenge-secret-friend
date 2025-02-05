@@ -23,3 +23,9 @@ function agregarAmigo() {
     // Limpiar el input después de agregar
     input.value = "";
 }
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert("No hay nombres en la lista para sortear.");
+        return;
+    }
+}
