@@ -1,8 +1,8 @@
-#Programa de Sorteo de Amigo Secreto
+# Programa de Sorteo de Amigo Secreto
 
 Este programa permite gestionar una lista de amigos, agregar sus nombres, y realizar un sorteo aleatorio para seleccionar al "amigo secreto".
 
-#Características
+## Características
 
 Agregar nombres a una lista.
 
@@ -12,7 +12,7 @@ Seleccionar un amigo secreto de manera aleatoria.
 
 Limpiar la lista después de realizar el sorteo.
 
-#Cómo usarlo
+## Cómo usarlo
 
 Agregar un amigo:
 
@@ -32,19 +32,19 @@ El nombre sorteado se mostrará en la sección de resultado.
 
 La lista de nombres será limpiada automáticamente después del sorteo.
 
-#Requisitos
+## Requisitos
 
 Navegador web moderno (Chrome, Firefox, Edge, etc.).
 
 Archivo HTML y JavaScript con el código proporcionado.
 
-#Archivos principales
+## Archivos principales
 
 index.html: Estructura del programa.
 
 script.js: Lógica principal del programa (agregar nombres y realizar el sorteo).
 
-#Ejemplo de uso
+## Ejemplo de uso
 
 Escribe "Juan" en el campo de texto y haz clic en "Agregar Amigo".
 
@@ -54,7 +54,7 @@ Haz clic en "Sortear Amigo" para seleccionar un nombre.
 
 El programa mostrará al ganador, y la lista se vaciará automáticamente.
 
-#Personalización
+## Personalización
 
 Puedes personalizar los siguientes aspectos:
 
@@ -62,7 +62,7 @@ Cambiar los estilos de los elementos en el archivo CSS (si existe).
 
 Modificar los textos de los botones y mensajes de alerta en el archivo JavaScript.
 
-#Autor
+## Autor
 
 Programa desarrollado por SERGIO DARINEL RODRIGUEZ PÉREZ.
 
