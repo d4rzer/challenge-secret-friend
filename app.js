@@ -28,4 +28,11 @@ function sortearAmigo() {
         alert("No hay nombres en la lista para sortear.");
         return;
     }
+        //Elegir un nombre aleatorio del arreglo 
+        let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+        let amigoSorteado = amigos[indiceAleatorio];
+    
+        //Mostrar el resultado en la lista de resultado
+        let resultadoLista = document.getElementById("resultado");
+        resultadoLista.innerHTML = `<li>🎉 ¡El amigo secreto es: <strong>${amigoSorteado}</strong>! 🎉</li>`;
 }
